@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(65, 65, 65);
+    background-color:rgb(90, 89, 89);
       overflow-x: hidden;
 }
 
@@ -8,9 +8,19 @@ img#logo1{
     padding-top: 10px;
     padding-left: 35px;
 }
+h6#titulo{
+  color: #a7a5a5;
+  margin-left: 550px;
+  margin-top: -110px;
+  font-size: 70px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 4px;
+  text-shadow:#333333 8px 2px 0px;
+}
+
 h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #494949;
     margin-left: 145px;
     margin-top: -4px;
@@ -18,10 +28,12 @@ h1{
 div#logo{
 margin-top: 20px;
     background-color: #d4d0d0;
-    box-shadow: rgb(0, 0, 0) 1px 1px 5px;
+    box-shadow: rgb(37, 37, 37) 1px 3px 5px;
     height: 120px;
-    width: 400px;
+    width: 8000px;
     border-radius: 20px;
+    position: relative;
+    z-index: 6;
    
     
 }
@@ -64,7 +76,7 @@ h2{
 }
 h3{
     font-size: 23px;
-    color: #757575de;
+    color: #b9b9b9de;
     padding-left: 20px;
     padding-top: 12px;
     width: 1800px;
@@ -172,7 +184,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: #d4d0d0;
+    color: #f1f1f1;
 }
 div#cor2{
   width: 1800px;
@@ -250,11 +262,30 @@ div#hibrida p{
      position:relative;
      z-index: 9;
     }
-  footer{
-    height: 100px;
-  }  
-      
-      
     
+  footer{
+background-color: rgb(135, 136, 135);
+width: auto;
+height: 100px;
+margin-top: 100px;
+box-shadow: #242222 1px 2px 4px;
+border-radius: 10px;
+  } 
+
+  h1#txtl{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #383737;
+    margin-left: 450px;
+  }    
+
+  h1#txtd{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #383737;
+    margin-left: 400px;
+    padding-top: 20px;
+  }
   
     
